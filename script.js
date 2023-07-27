@@ -2,7 +2,7 @@ gsap.from(".startOne", {
   y: -200,
   duration: 1,
   delay: 1,
-  stagger: .2,
+  stagger: .5,
   opacity: 0,
 })
 
@@ -16,7 +16,11 @@ gsap.to("h1", {
   delay: 5
 })
 
-const zerOne = document.querySelector("#zer");
+const zerOne = document.querySelector("#zer1");
+const zerTwo = document.querySelector("#zer2");
+const zerTree = document.querySelector("#zer3");
+const zerFour = document.querySelector("#zer4");
+const zerFive = document.querySelector("#zer5");
 const one = document.querySelector("#one");
 const two = document.querySelector("#two");
 const tree = document.querySelector("#tree");
@@ -24,13 +28,42 @@ const four = document.querySelector("#four");
 const five = document.querySelector("#five");
 
 one.addEventListener("click", ()=> {
-  zerOne.style.opacity = '1';
-  zerOne.style.marginTop = '0';
+  zerOne.style.display = "flex";
+  zerTwo.style.display = "none";
+  zerTree.style.display = "none";
+  zerFour.style.display = "none";
+  zerFive.style.display = "none";
+});
 
-  setTimeout(() => {
-    zerOne.style.marginTop = "100px";
-  }, 2000);
-})
+two.addEventListener("click", ()=> {
+  zerOne.style.display = "none";
+  zerTwo.style.display = "flex";
+  zerTree.style.display = "none";
+  zerFour.style.display = "none";
+  zerFive.style.display = "none";
+});
+
+tree.addEventListener("click", ()=> {
+  zerOne.style.display = "none";
+  zerTwo.style.display = "none";
+  zerTree.style.display = "flex";
+  zerFour.style.display = "none";
+  zerFive.style.display = "none";
+});
+four.addEventListener("click", ()=> {
+  zerOne.style.display = "none";
+  zerTwo.style.display = "none";
+  zerTree.style.display = "none";
+  zerFour.style.display = "flex";
+  zerFive.style.display = "none";
+});
+five.addEventListener("click", ()=> {
+  zerOne.style.display = "none";
+  zerTwo.style.display = "none";
+  zerTree.style.display = "none";
+  zerFour.style.display = "none";
+  zerFive.style.display = "flex";
+});
 
 particlesJS("particles-js", {
     "particles": {

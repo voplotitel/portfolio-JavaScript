@@ -1,325 +1,322 @@
 body {
-    margin: 0;
-    background: linear-gradient(149deg, rgba(24,187,156,1) 0%, rgba(106,57,175,1) 42%, rgba(187,24,148,1) 72%, rgba(115,53,134,1) 100%);
-    font:normal 75% Arial, Helvetica, sans-serif;
+  margin: 0;
+  background: linear-gradient(149deg, rgba(24,187,156,1) 0%, rgba(106,57,175,1) 42%, rgba(187,24,148,1) 72%, rgba(115,53,134,1) 100%);
+  font:normal 75% Arial, Helvetica, sans-serif;
+  font-family: 'Playfair Display', serif;
 }
 
 #ico {
-    background-image: url(Foto.jpg);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: 70px;
-    height: 70px;
-    width: 70px;
+  background-image: url(https://cdn.glitch.global/627b9f82-fbc4-424c-8afe-b9f989ed96a2/Foto.jpg?v=1685563917288);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 70px;
+  height: 70px;
+  width: 70px;
 }
 
 #start {
-    display: flex;
-    justify-content: space-between;
-    text-decoration: none;
+  display: flex;
+  justify-content: space-between;
+  text-decoration: none;
 }
 
 #menu   {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    width: 100%;
-    background-color: black;
-    margin-top: 0;
-    height: 70px;
-    list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  width: 100%;
+  background-color: black;
+  margin-top: 0;
+  height: 70px;
+  list-style: none;
 }
 
 li {
-    width: 200px;
-    font-size: 30px;
-    text-align: center;
-    align-self: center;
-    padding: 10px;
+  width: 200px;
+  font-size: 30px;
+  text-align: center;
+  align-self: center;
+  padding: 10px;
 }
 
 li:hover {
-    background-color: rgb(172, 172, 255);
-    border-radius: 10px;
-    transition: all 1s;
+  background-color: rgb(172, 172, 255);
+  border-radius: 10px;
+  transition: all 1s;
 }
 
 a {
-    text-decoration: none;
-    color: white;
+  text-decoration: none;
+  color: white;
 }
 
 #heading {
-    display: flex;
-    justify-content: center;
-    height: 50px;
+  display: flex;
+  justify-content: center;
+  height: 50px;
 }
 
 h1 {
-    margin: 0;
-    font-size: 40px;
-    color: #fff;
+  margin: 0;
+  font-size: 40px;
+  color: #fff;
 }
 
 .par {
-    display: flex;
-    justify-content: center;
-    margin: 200px;
-    color: #fff;
-    font-weight: 900;
-    font-size: 25px;
+  display: flex;
+  justify-content: center;
+  margin: 200px;
+  color: #fff;
+  font-weight: 900;
+  font-size: 25px;
 
 }
-  
-  canvas {
-    display: block;
-    vertical-align: bottom;
-  }
-  
-  #particles-js {
-    position: fixed;
-    width: 100%;
-    height: 100%;
-    background: linear-gradient(149deg, rgba(24,187,156,1) 0%, rgba(106,57,175,1) 42%, rgba(187,24,148,1) 72%, rgba(115,53,134,1) 100%);
-    background-image: url("");
-    backface-visibility: inherit;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: 50% 50%;
-  }
-  
-  .count-particles{
-    background: #000022;
-    position: absolute;
-    top: 48px;
-    left: 0;
-    width: 80px;
-    color: #13E8E9;
-    font-size: .8em;
-    text-align: left;
-    text-indent: 4px;
-    line-height: 14px;
-    padding-bottom: 2px;
-    font-family: Helvetica, Arial, sans-serif;
-    font-weight: bold;
-  }
-  
-  .js-count-particles{
-    font-size: 1.1em;
-  }
-  
-  #stats,
-  .count-particles{
-    -webkit-user-select: none;
-  }
-  
-  #stats{
-    border-radius: 3px 3px 0 0;
-    overflow: hidden;
-  }
-  
-  .count-particles{
-    border-radius: 0 0 3px 3px;
-  }
 
-  .programming {
-    background-image: url(programming.jpg);
-    background-repeat: no-repeat;
-    background-position: center;
-    max-width: 100%;
-    height: 400px;
-    display: flex;
-    justify-content: center;
-    margin: 50px;
-    border-radius: 50px;
-  }
+canvas {
+  display: block;
+  vertical-align: bottom;
+}
 
-  #header {
-    display: flex;
-    justify-content: center;
-  }
+#particles-js {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(149deg, rgba(24,187,156,1) 0%, rgba(106,57,175,1) 42%, rgba(187,24,148,1) 72%, rgba(115,53,134,1) 100%);
+  background-image: url("");
+  backface-visibility: inherit;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 50%;
+}
 
-  #headingTree, #mySkills, #headingTwo {
-    font-size: 30px;
-    font-weight: bold;
-    color: white;
-  }
+.count-particles{
+  background: #000022;
+  position: absolute;
+  top: 48px;
+  left: 0;
+  width: 80px;
+  color: #13E8E9;
+  font-size: .8em;
+  text-align: left;
+  text-indent: 4px;
+  line-height: 14px;
+  padding-bottom: 2px;
+  font-family: Helvetica, Arial, sans-serif;
+  font-weight: bold;
+}
 
-  #projects {
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
-    margin: 80px;
-  }
+.js-count-particles{
+  font-size: 1.1em;
+}
 
-  .myJobs {
-    width: 400px;
-    border-radius: 10px;
-    margin-top: 50px;
-    margin: 50px;
-    box-shadow: 3px 3px yellow, -5px -3px .2em yellowgreen;
-  }
+#stats,
+.count-particles{
+  -webkit-user-select: none;
+}
 
-  .myJobs:hover {
-   border: 5px rgba(172, 172, 255, 0.5) solid;
-   width: 600px;
-   transition: 2s;
-  }
+#stats{
+  border-radius: 3px 3px 0 0;
+  overflow: hidden;
+}
 
-  #skills {
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
-    margin: 100px;
+.count-particles{
+  border-radius: 0 0 3px 3px;
+}
 
-  }
+.programming {
+  background-image: url(https://cdn.glitch.global/627b9f82-fbc4-424c-8afe-b9f989ed96a2/programming.jpg?v=1685563958354);
+  background-repeat: no-repeat;
+  background-position: center;
+  max-width: 100%;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  margin: 50px;
+  border-radius: 50px;
+}
 
-  .skills {
-    width: 100px;
-    margin: 50px;
-  }
+#header {
+  display: flex;
+  justify-content: center;
+}
 
-  .skills:hover {
-    width: 120px;
-    border: 2px rgba(172, 172, 255, 0.5) solid;
-    border-radius: 15px 2px;
-    transition: 2s;
-   }
+#headingTree, #mySkills, #headingTwo {
+  font-size: 30px;
+  font-weight: bold;
+  color: white;
+}
 
-   .zertificat {
-    display: flex;
-    justify-content: center;
-    height: 400px;
-    margin-bottom: 50px;
-   }
+#projects {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin: 80px;
+}
 
-   #one, #two, #tree, #four, #five {
-    background: transparent;
-    border: none;
-   } 
+.myJobs {
+  width: 400px;
+  border-radius: 10px;
+  margin-top: 50px;
+  margin: 50px;
+  box-shadow: 3px 3px yellow, -5px -3px .2em yellowgreen;
+}
 
-   #zer {
-    position: relative;
-    margin-top: 100px;
-    opacity: 0;
-    height: 400px;
-   }
+.myJobs:hover {
+ border: 5px rgba(172, 172, 255, 0.5) solid;
+ width: 600px;
+ transition: 2s;
+}
 
-   #zer:hover, #zer2:hover, #zer3:hover, #zer4:hover, #zer5:hover {
-    border-radius: 20px;
-    border: #00adb5 5px solid;
-    transition: 1s;
-   }
+#skills {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin: 100px;
 
-   .parent {
-    font-size: 14px;
-    color: #fff;
-   }
+}
 
-   .heading {
-    display: flex;
-    justify-content: center;
-    height: 70px;
-    margin-bottom: 30px;
+.skills {
+  width: 100px;
+  margin: 50px;
+}
+
+.skills:hover {
+  width: 120px;
+  border: 2px rgba(172, 172, 255, 0.5) solid;
+  border-radius: 15px 2px;
+  transition: 2s;
+ }
+
+ .zertificat {
+  display: flex;
+  justify-content: center;
+  height: 400px;
+  margin-bottom: 50px;
+ }
+
+ #one, #two, #tree, #four, #five {
+  background: transparent;
+  border: none;
+ } 
+
+ #zer1, #zer2, #zer3, #zer4, #zer5 {
+  height: 400px;
+  display: none;
+ }
+
+ #zer1:hover, #zer2:hover, #zer3:hover, #zer4:hover, #zer5:hover {
+  border-radius: 20px;
+  border: #00adb5 5px solid;
+  transition: 1s;
+ }
+
+ .parent {
+  font-size: 14px;
+  color: #fff;
+ }
+
+ .heading {
+  display: flex;
+  justify-content: center;
+  height: 70px;
+  margin-bottom: 30px;
 }
 
 label {
-  font-size: 30px;
-  color: #fff;
+font-size: 30px;
+color: #fff;
 }
 
 .text-input {
-  background-color: #333;
-  border: none;
-  padding: 12px 20px;
+background-color: #333;
+border: none;
+padding: 12px 20px;
 }
 
 .text-input {
-  background-color: #333;
-  border: none;
-  padding: 12px 20px;
+background-color: #333;
+border: none;
+padding: 12px 20px;
 }
 
 .btn {
-  color: #fff;
-  background-color: #00adb5;
-  font-size: 30px;
-  width: 300px;
-  border-radius: 20px;
+color: #fff;
+background-color: #00adb5;
+font-family: 'Playfair Display', serif;
+font-size: 30px;
+width: 300px;
+border-radius: 20px;
 }
 
 .btn:hover {
-  background-color: #000022;
-  transition: 1s;
+background-color: #000022;
+transition: 1s;
 }
 
-   #bottom {
-    display: flex;
-    justify-content: center;
-    height: 100px;
-    background-color: red;
+ #bottom {
+  display: flex;
+  justify-content: center;
+  height: 100px;
+  background-color: red;
+ }
+
+@media (max-width: 800px) {
+  #ico {
+    display: none;
+  }
+  #menu {
+    height: 150px;
+    font-size: 16px;
+  }
+
+  li {
+    font-size: 16px;
+  }
+
+  h1 {
+    font-size: 20px;
+  }
+
+  h3 {
+    font-size: 18px;
+  }
+
+  .par {
+    margin: 20px;
+  }
+
+  p {
+    font-size: 15px;
+  }
+
+  .myJobs {
+    width: 250px;
+    border-radius: 10px;
+    margin-top: 20px;
+    margin: 20px;
+  }
+
+  .myJobs:hover {
+   width: 300px;
+  }
+
+  .skills {
+    width: 50px;
+    margin: 10px;
+  }
+
+  .skills:hover {
+    width: 60px;
    }
 
-  @media (max-width: 800px) {
-    #ico {
-      display: none;
-    }
-    #menu {
-      height: 150px;
-      font-size: 16px;
-    }
+   #zer1, #zer2, #zer3, #zer4, #zer5 {
+    height: 250px;
+   }
 
-    li {
-      font-size: 16px;
-    }
-
-    h1 {
-      font-size: 20px;
-    }
-
-    h3 {
-      font-size: 18px;
-    }
-
-    .par {
-      margin: 20px;
-    }
-
-    p {
-      font-size: 15px;
-    }
-
-    .myJobs {
-      width: 250px;
-      border-radius: 10px;
-      margin-top: 20px;
-      margin: 20px;
-    }
-  
-    .myJobs:hover {
-     width: 300px;
-    }
-
-    .skills {
-      width: 50px;
-      margin: 10px;
-    }
-  
-    .skills:hover {
-      width: 60px;
-     }
-
-     #zer1, #zer2, #zer3, #zer4, #zer5 {
-      height: 250px;
-     }
-
-     .programming {
-      background-image: url(programming.jpg);
-      background-repeat: no-repeat;
-      background-position: center;
-      max-width: 100%;
-      height: 150px;
-      margin: 0;
-      border-radius: 0;
-    }
+   .programming {
+    max-width: 100%;
+    height: 150px;
+    margin: 0;
+    border-radius: 0;
   }
+}
